@@ -1,8 +1,8 @@
 {
     "jars" : {
-        "crime_all" : "crime_data.jar",
-        "crime_year" : "crime_year.jar",
-        "crime_range" : "crime_limit.jar"
+        "crime_all" : "jars/crime_data.jar",
+        "crime_year" : "jars/crime_year.jar",
+        "crime_range" : "jars/crime_limit.jar"
     },
     "jar_methods" : {
         "crime_all" : "CrimeData",

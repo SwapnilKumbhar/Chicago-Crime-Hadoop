@@ -3,3 +3,6 @@ data/*
 
 # CSVs
 *.csv
+
+# complied
+*.pyc
