@@ -43,7 +43,7 @@ class CrimeData {
     public static void main(String... args) throws Exception {
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "crime data");
-        job.setJarByClass(CrimeData.class);
+        job.setJarByClass(CrimeDataYear.class);
         job.setMapperClass(CrimeMapper.class);
         job.setCombinerClass(CrimeReducer.class);
         job.setReducerClass(CrimeReducer.class);

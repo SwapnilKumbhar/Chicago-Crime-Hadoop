@@ -1,0 +1,16 @@
+{
+    "jars" : {
+        "crime_all" : "crime_data.jar",
+        "crime_year" : "crime_year.jar",
+        "crime_range" : "crime_limit.jar"
+    },
+    "jar_methods" : {
+        "crime_all" : "CrimeData",
+        "crime_year" : "CrimeYear",
+        "crime_range" : "CrimeLimit"
+    },
+    "tmp" : "tmp/",
+    "dataset" :"data/Crimes_-_2001_to_present.csv",
+    "output" : "data/output/",
+    "filename" : "part-r-00000"
+}
