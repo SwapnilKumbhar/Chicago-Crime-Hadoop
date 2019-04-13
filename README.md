@@ -11,7 +11,9 @@ Gives the visualisation of crime data from a user specified year.
 ## Limit
 Here the user has to specify a range of time. This is the range that will be considered for analysing the crime data.
 
----
+## Screenshot
+![Sample Output](screenshots/hadoop.png)
+
 The essential working of all modes remains the same. We count the occurences of each unique crimes in each range and portray this data as a bar graph using Matplotlib. <br>
 
 ### Source
